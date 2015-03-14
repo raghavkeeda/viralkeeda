@@ -9,3 +9,18 @@ Version:        1.0
 */
 
 @import url("../saladmag/style.css");
+
+/*Custom CSS for Home page*/
+@media screen and (min-width: 768px) {
+.social-icons-list.top-bar-social
+{
+	position: absolute;
+	top: 6px;
+	right: 103px;
+}
+}
+ .logo-position{text-align: center;}
+
+#search_block_top{ position: absolute;
+  right: 0;
+  top: 5px;}

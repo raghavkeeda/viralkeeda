@@ -153,6 +153,16 @@ echo $currDate;*/
                            
   <div class="menu-primary-container main-menu"> 
 <?php $main_menu = array('walker' => new jellywp_walker(), 'theme_location' => 'Main_Menu', 'container' => '', 'menu_class' => 'sf-menu', 'menu_id' => 'mainmenu', 'fallback_cb' => false, 'link_after'=>'<span class="border-menu"></span>'); wp_nav_menu($main_menu);?>
+ <div id="search_block_top">
+  <form id="searchbox" action="<?php echo home_url(); ?>" method="GET" role="search">
+    <p>
+      <input type="text" id="search_query_top" name="s" class="search_query ac_input" value="" placeholder="<?php _e('Search here', 'jelly_text_main'); ?>">
+            <a class="button_search" href="javascript:document.getElementById('searchbox').submit();"></a>
+  </p>
+  </form>
+    <span>Search</span>
+    <div class="clearfix"></div>
+</div>
 <div class="clearfix"></div>
 </div>                             
                             <!-- end main menu -->
@@ -206,14 +216,14 @@ echo $currDate;*/
     <?php if(!of_get_option('disable_social_icons')==1){?> 
     <ul class="social-icons-list top-bar-social">
      <?php if(of_get_option('facebook')!=''){?> <li><a href="<?php echo of_get_option('facebook');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/facebook.png" alt="<?php _e('Facebook', 'jelly_text_main'); ?>"></a></li><?php }?>
+     <?php if(of_get_option('twitter')!=''){?><li><a href="<?php echo of_get_option('twitter');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter.png" alt="<?php _e('Twitter', 'jelly_text_main'); ?>"></a></li><?php }?>
      <?php if(of_get_option('google_plus')!=''){?><li><a href="<?php echo of_get_option('google_plus');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/google-plus.png" alt="<?php _e('Google Plus', 'jelly_text_main'); ?>"></a></li><?php }?>
+     <?php if(of_get_option('youtube')!=''){?><li><a href="<?php echo of_get_option('youtube');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/youtube.png" alt="<?php _e('Youtube', 'jelly_text_main'); ?>"></a></li><?php }?>
+     <?php if(of_get_option('pinterest')!=''){?><li><a href="<?php echo of_get_option('pinterest');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/pin.png" alt="<?php _e('Pinterest', 'jelly_text_main'); ?>"></a></li><?php }?>
      <?php if(of_get_option('behance')!=''){?><li><a href="<?php echo of_get_option('behance');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/behance.png" alt="<?php _e('Behance', 'jelly_text_main'); ?>"></a></li><?php }?>
      <?php if(of_get_option('vimeo')!=''){?><li><a href="<?php echo of_get_option('vimeo');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/vimeo.png" alt="<?php _e('Vimeo', 'jelly_text_main'); ?>"></a></li><?php }?>
-     <?php if(of_get_option('youtube')!=''){?><li><a href="<?php echo of_get_option('youtube');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/youtube.png" alt="<?php _e('Youtube', 'jelly_text_main'); ?>"></a></li><?php }?>
      <?php if(of_get_option('instagram')!=''){?><li><a href="<?php echo of_get_option('instagram');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/instagram.png" alt="<?php _e('Instagram', 'jelly_text_main'); ?>"></a></li><?php }?>
      <?php if(of_get_option('linkedin')!=''){?><li><a href="<?php echo of_get_option('linkedin');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/link.png" alt="<?php _e('linkedin', 'jelly_text_main'); ?>"></a></li><?php }?>
-     <?php if(of_get_option('pinterest')!=''){?><li><a href="<?php echo of_get_option('pinterest');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/pin.png" alt="<?php _e('Pinterest', 'jelly_text_main'); ?>"></a></li><?php }?>
-     <?php if(of_get_option('twitter')!=''){?><li><a href="<?php echo of_get_option('twitter');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter.png" alt="<?php _e('Twitter', 'jelly_text_main'); ?>"></a></li><?php }?>
     <?php if(of_get_option('blogger')!=''){?> <li><a href="<?php echo of_get_option('blogger');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/blogger.png" alt="<?php _e('Blogger', 'jelly_text_main'); ?>"></a></li><?php }?>
     <?php if(of_get_option('deviantart')!=''){?> <li><a href="<?php echo of_get_option('deviantart');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/d-art.png" alt="<?php _e('Deviantart', 'jelly_text_main'); ?>"></a></li><?php }?>
      <?php if(of_get_option('dribble')!=''){?><li><a href="<?php echo of_get_option('dribble');?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/dribble.png" alt="<?php _e('Dribble', 'jelly_text_main'); ?>"></a></li><?php }?>

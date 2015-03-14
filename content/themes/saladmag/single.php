@@ -125,11 +125,11 @@ wp_link_pages( $defaults_link ); ?>
                           
                             <div class="share-post">
                                  <ul>                                                
-<li><a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php echo get_permalink(); ?>" data-text="<?php the_title(); ?>" data-via="" data-lang="en">tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li> 
+<!-- <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php echo get_permalink(); ?>" data-text="<?php the_title(); ?>" data-via="" data-lang="en">tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li> 
 
 <li><script src="http://platform.linkedin.com/in.js" type="text/javascript"></script><script type="IN/Share" data-url="<?php echo get_permalink(); ?>" data-counter="right"></script></li>     
 
-<li style="width:80px;"><script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script><a href="http://pinterest.com/pin/create/button/?url=<?php echo get_permalink(); ?>&amp;media=<?php $fullimage = wp_get_attachment_url( get_post_thumbnail_id($post_id, 'full') ); if(!empty($fullimage)) {echo $fullimage;}?>" class="pin-it-button" count-layout="horizontal"><img border="0" src="http://assets.pinterest.com/img/PinExt.png" title="Pin It"/></a></li>
+<li style="width:80px;"><script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script><a href="http://pinterest.com/pin/create/button/?url=<?php echo get_permalink(); ?>&amp;media=<?php $fullimage = wp_get_attachment_url( get_post_thumbnail_id($post_id, 'full') ); if(!empty($fullimage)) {echo $fullimage;}?>" class="pin-it-button" count-layout="horizontal"><img border="0" src="http://assets.pinterest.com/img/PinExt.png" title="Pin It"/></a></li> -->
                               <li>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -317,8 +317,8 @@ wp_link_pages( $defaults_link ); ?>
 					<hr class="none" />
 
                     <!-- comment -->
-                    <?php comments_template('', true); ?>
                     
+                   <?php echo do_shortcode('[fbcomments]'); ?> 
                     </div>
                   <!-- end post --> 
 
@@ -351,7 +351,8 @@ wp_link_pages( $defaults_link ); ?>
 				} else{
 					if (is_active_sidebar('general-sidebar')) : dynamic_sidebar('general-sidebar');
 		            endif;
-				}					
+				}
+
 ?><div class="brack_space"></div>
           
        </div>
