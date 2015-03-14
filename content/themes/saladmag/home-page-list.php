@@ -299,7 +299,7 @@ else{echo '<img class="no_feature_img" src="'.get_template_directory_uri().'/img
 </div>
 <div class="clearfix"></div>
                    <?php //jellywp_pagination(); ?>
-                 <div class="pagination-more">
+                 <div class="pagination-more" style="visibility:hidden">
             <div class="more-previous"><?php next_posts_link( __( 'Load More Post', 'jelly_text_main') ); ?></div>
             </div>
 <?php }else{

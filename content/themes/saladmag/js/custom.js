@@ -22,11 +22,11 @@ jQuery(document).ready(function ($) {
         });	                      
   });
   
-
-    jQuery(window).unbind('.infscr');
+//Uncomment to use infinite scroll with load more functionality
+    /*jQuery(window).unbind('.infscr');
 	jQuery('div.more-previous a').click(function(){jQuery('#content_masonry').infinitescroll('retrieve');
 	return false;
-	});
+	});*/
 
 //////////////////////////////////////////////////////////////////////////
 //				Real time
