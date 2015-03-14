@@ -1,0 +1,1145 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: saladmag\n"
+"POT-Creation-Date: 2014-02-23 17:40+0700\n"
+"PO-Revision-Date: 2014-04-05 22:53+0700\n"
+"Last-Translator: Themeloy <themeloy@gmail.com>\n"
+"Language-Team: Jellywp <jellywp@gmail.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:7
+msgid "404"
+msgstr ""
+
+#: ../404.php:9
+msgid "OOOOOPS!! The page you are looking for doesnt exist!"
+msgstr "Ooooops! Die Seite, die Sie suchen gibt es nicht!"
+
+#: ../archive.php:10
+msgid "Archives post"
+msgstr "Archiv Beitrag"
+
+#: ../comments.php:24
+msgid "Comment navigation"
+msgstr "Kommentar Navigations"
+
+#: ../comments.php:25
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: ../comments.php:26
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: ../comments.php:35
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: ../functions.php:56
+msgid "General Sidebar"
+msgstr "Allgemeine Sidebar"
+
+#: ../functions.php:66
+msgid "Header top sidebar"
+msgstr "Kopfzeile oben Seitenleiste"
+
+#: ../functions.php:75
+msgid "Footer1 Sidebar"
+msgstr "Footer1 Sidebar"
+
+#: ../functions.php:84
+msgid "Footer2 Sidebar"
+msgstr "Footer2 Sidebar"
+
+#: ../functions.php:93
+msgid "Footer3 Sidebar"
+msgstr "Footer3 Sidebar"
+
+#: ../functions.php:115
+msgid "<i class=\"fa fa-comments\"></i>0"
+msgstr ""
+
+#: ../functions.php:115
+msgid "<i class=\"fa fa-comments\"></i> 1"
+msgstr ""
+
+#: ../functions.php:115
+msgid "<i class=\"fa fa-comments\"></i>%"
+msgstr ""
+
+#: ../functions.php:174
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../functions.php:174
+msgid "(Edit)"
+msgstr "(Bearbeiten)"
+
+#: ../functions.php:189
+msgid "Post author"
+msgstr "Beitrag Autor"
+
+#: ../functions.php:195
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:201
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wartet auf Moderation."
+
+#: ../functions.php:206
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../functions.php:210
+msgid "Reply"
+msgstr "antworten"
+
+#: ../functions.php:244
+msgid "Previous Page"
+msgstr "Vorherige Seite"
+
+#: ../functions.php:258
+msgid "Next Page"
+msgstr "Nächste Seite"
+
+#: ../header.php:74
+msgid "Search here"
+msgstr "Suchen Sie hier"
+
+#: ../header.php:146
+msgid "Latest Update"
+msgstr "Neuestes Update"
+
+#: ../home-page-2.php:171 ../home-page.php:180
+msgid "<i class=\"fa fa-comments\"></i> Comments (0)"
+msgstr ""
+
+#: ../home-page-2.php:171 ../home-page.php:180
+msgid "<i class=\"fa fa-comments\"></i> Comments (1)"
+msgstr ""
+
+#: ../home-page-2.php:171 ../home-page.php:180
+msgid "<i class=\"fa fa-comments\"></i> Comments (%)"
+msgstr ""
+
+#: ../loop.php:12
+msgid "Search for: "
+msgstr "Suchen nach:"
+
+#: ../loop.php:17
+msgid "Category: "
+msgstr "Kategorie:"
+
+#: ../loop.php:22
+msgid "Author: "
+msgstr "Autor:"
+
+#: ../loop.php:27
+msgid "Tag: "
+msgstr "Tag:"
+
+#: ../loop.php:66
+msgid "No result found"
+msgstr "Kein Ergebnis gefunden"
+
+#: ../single.php:38
+msgid "Reviews"
+msgstr "Bewertungen"
+
+#: ../single.php:231
+msgid "Related articles"
+msgstr "In Verbindung stehende Artikel"
+
+#: ../single.php:287
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: ../inc/options.php:741
+msgid "General Setting"
+msgstr "Allgemeine Einstellung"
+
+#: ../inc/options.php:746
+msgid "Your website logo"
+msgstr "Ihre Website-Logo"
+
+#: ../inc/options.php:751
+msgid "Your website favicon"
+msgstr "Ihre Website Favicon"
+
+#: ../inc/options.php:758
+msgid "Full or Boxed Layout"
+msgstr "Voll-oder Boxed-Layout"
+
+#: ../inc/options.php:764
+msgid "Full width"
+msgstr "Volle Breite"
+
+#: ../inc/options.php:765
+msgid "Boxed with"
+msgstr "mit boxed"
+
+#: ../inc/options.php:769
+msgid "Theme color"
+msgstr "Thema Farbe"
+
+#: ../inc/options.php:777
+msgid "Disable top menu"
+msgstr "Deaktivieren oberen Menü"
+
+#: ../inc/options.php:784
+msgid "Paragraph Font"
+msgstr "Paragraph Font"
+
+#: ../inc/options.php:792
+msgid "Title Google Font"
+msgstr "Titel Google Font"
+
+#: ../inc/options.php:800
+msgid "Disable top search"
+msgstr "Deaktivieren Top-Such"
+
+#: ../inc/options.php:807
+msgid "Disable News ticker"
+msgstr "Deaktivieren Newsticker"
+
+#: ../inc/options.php:814
+msgid "Disable social icons"
+msgstr "Deaktivieren sozialen Symbole"
+
+#: ../inc/options.php:821
+msgid "Disable Home carousel"
+msgstr "Deaktivieren Startseite Karussell"
+
+#: ../inc/options.php:832
+msgid "Style & Background"
+msgstr "Style & Hintergrund"
+
+#: ../inc/options.php:916
+msgid "Background large Image"
+msgstr "Hintergrund Großes Bild"
+
+#: ../inc/options.php:923
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: ../inc/options.php:930
+msgid "Custom CSS"
+msgstr "Benutzerdefinierte CSS"
+
+#: ../inc/options.php:950
+msgid "Header Slider Option"
+msgstr "Header-Slider Option"
+
+#: ../inc/options.php:956
+msgid "French Toast"
+msgstr "Französisch Toast"
+
+#: ../inc/options.php:957
+msgid "Pancake"
+msgstr "Pancake"
+
+#: ../inc/options.php:958
+msgid "Omelette"
+msgstr "Omelette"
+
+#: ../inc/options.php:959
+msgid "Crepe"
+msgstr "Krepp"
+
+#: ../inc/options.php:960
+msgid "Waffle"
+msgstr "Waffel"
+
+#: ../inc/options.php:965
+msgid "Slider category"
+msgstr "Slider Kategorie"
+
+#: ../inc/options.php:973
+msgid "Post on right slider"
+msgstr "Veröffentlichen Sie auf der rechten Schieberegler"
+
+#: ../inc/options.php:981
+msgid "Post carousel title"
+msgstr "Beitrag Karussell Titel"
+
+#: ../inc/options.php:988
+msgid "Carousel post"
+msgstr "Karussell-Post"
+
+#: ../inc/options.php:996
+msgid "News ticker category"
+msgstr "Newsticker Kategorie"
+
+#: ../inc/options.php:1004
+msgid "Number of news ticker"
+msgstr "Anzahl der News-Ticker"
+
+#: ../inc/options.php:1011
+msgid "Number of Post carousel"
+msgstr "Anzahl der Beitrag Karussell"
+
+#: ../inc/options.php:1018
+msgid "Number of slider"
+msgstr "Anzahl der Schieber"
+
+#: ../inc/options.php:1033
+msgid "Menu border color"
+msgstr "Menü Rahmenfarbe"
+
+#: ../inc/options.php:1039
+msgid "Border color 1"
+msgstr "Border Farbe 1"
+
+#: ../inc/options.php:1046
+msgid "Border color 2"
+msgstr "Border Farbe 2"
+
+#: ../inc/options.php:1053
+msgid "Border color 3"
+msgstr "Border Farbe 3"
+
+#: ../inc/options.php:1060
+msgid "Border color 4"
+msgstr "Border Farbe 4"
+
+#: ../inc/options.php:1067
+msgid "Border color 5"
+msgstr "Border Farbe 5"
+
+#: ../inc/options.php:1074
+msgid "Border color 6"
+msgstr "Border Farbe 6"
+
+#: ../inc/options.php:1081
+msgid "Border color 7"
+msgstr "Border Farbe 7"
+
+#: ../inc/options.php:1088
+msgid "Border color 8"
+msgstr "Border Farbe 8"
+
+#: ../inc/options.php:1095
+msgid "Border color 9"
+msgstr "Border Farbe 9"
+
+#: ../inc/options.php:1102
+msgid "Border color 10"
+msgstr "Border Farbe 10"
+
+#: ../inc/options.php:1113
+msgid "Blog"
+msgstr "Blog"
+
+#: ../inc/options.php:1117
+msgid "Disable post date"
+msgstr "Deaktivieren Sie nach Datum"
+
+#: ../inc/options.php:1124 ../inc/options.php:1166
+msgid "Disable post author"
+msgstr "Deaktivieren Postautor"
+
+#: ../inc/options.php:1131
+msgid "Disable post category"
+msgstr "Deaktivieren Sie nach Kategorie"
+
+#: ../inc/options.php:1138
+msgid "Disable post comment meta"
+msgstr "Deaktivieren Beitrag Kommentar Meta"
+
+#: ../inc/options.php:1145
+msgid "Disable post review"
+msgstr "Deaktivieren Beitrag schreiben"
+
+#: ../inc/options.php:1152
+msgid "Disable post tag"
+msgstr "Deaktivieren Post-Tag"
+
+#: ../inc/options.php:1159
+msgid "Disable post share"
+msgstr "Deaktivieren Post Aktie"
+
+#: ../inc/options.php:1173
+msgid "Disable post related"
+msgstr "Deaktivieren Sie auf der Website posten"
+
+#: ../inc/options.php:1180
+msgid "Enable blog feautre image"
+msgstr "Bild-Blog feautre aktivieren"
+
+#: ../inc/options.php:1188
+msgid "Social Link"
+msgstr "Social Link"
+
+#: ../inc/options.php:1193
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../inc/options.php:1200
+msgid "Google-plus"
+msgstr "Google-plus"
+
+#: ../inc/options.php:1207
+msgid "Behance"
+msgstr "Behance"
+
+#: ../inc/options.php:1214
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../inc/options.php:1221
+msgid "Youtube"
+msgstr "Youtube"
+
+#: ../inc/options.php:1228
+msgid "Instagram"
+msgstr "Instagram"
+
+#: ../inc/options.php:1235
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: ../inc/options.php:1242
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../inc/options.php:1249
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../inc/options.php:1256
+msgid "Blogger"
+msgstr "Blogger"
+
+#: ../inc/options.php:1263
+msgid "Deviantart"
+msgstr "Deviantart"
+
+#: ../inc/options.php:1270
+msgid "Dribble"
+msgstr "Dribble"
+
+#: ../inc/options.php:1277
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: ../inc/options.php:1284
+msgid "RSS"
+msgstr "RSS"
+
+#: ../inc/options.php:1291
+msgid "Skype"
+msgstr "Skype"
+
+#: ../inc/options.php:1298
+msgid "Stumbleupon"
+msgstr "Stumbleupon"
+
+#: ../inc/options.php:1305
+msgid "Wordpress"
+msgstr "Wordpress"
+
+#: ../inc/options.php:1312
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: ../inc/options.php:1321
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: ../inc/options.php:1325
+msgid "Post sidebar"
+msgstr "Beitrag Seitenleiste"
+
+#: ../inc/options.php:1332
+msgid "Page sidebar"
+msgstr "Seite Seitenleiste"
+
+#: ../inc/options.php:1339
+msgid "Category sidebar"
+msgstr "Kategorie Seitenleiste"
+
+#: ../inc/options.php:1346
+msgid "Tag sidebar"
+msgstr "Tag Seitenleiste"
+
+#: ../inc/options.php:1353
+msgid "Archive sidebar"
+msgstr "Archive Seitenleiste"
+
+#: ../inc/options.php:1363
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: ../inc/options.php:1368
+msgid "Footer columns"
+msgstr "footer Spalten"
+
+#: ../inc/options.php:1374
+msgid "Footer 3 columns"
+msgstr "Footer 3 Spalten"
+
+#: ../inc/options.php:1375
+msgid "Footer 2 columns"
+msgstr "Footer 2 Spalten"
+
+#: ../inc/options.php:1376
+msgid "Footer 1 columns"
+msgstr "Footer 1 Spalten"
+
+#: ../inc/options.php:1377
+msgid "No Footer"
+msgstr "Kein Footer"
+
+#: ../inc/options.php:1382
+msgid "Footer copyright"
+msgstr "Footer copyright"
+
+#: ../inc/options.php:1389
+msgid "Google analytics code"
+msgstr "Google analytics code"
+
+#: ../inc/addon/pagination.php:22
+msgid "&laquo; First"
+msgstr "&laquo; erste"
+
+#: ../inc/addon/pagination.php:29
+msgid "&lsaquo; Previous"
+msgstr "&lsaquo; früher"
+
+#: ../inc/addon/pagination.php:43
+msgid "Next &rsaquo;"
+msgstr "nächste &rsaquo;"
+
+#: ../inc/addon/pagination.php:50
+msgid "Last &raquo;"
+msgstr "letzte &raquo;"
+
+#: ../inc/addon/sidebar_generator.php:176
+#: ../inc/addon/sidebar_generator.php:199
+msgid "Custom Sidebars"
+msgstr "Benutzerdefinierte Seitenleisten"
+
+#: ../inc/addon/sidebar_generator.php:230
+msgid "No Sidebars defined"
+msgstr "Keine Seitenleisten definiert"
+
+#: ../inc/addon/sidebar_generator.php:280
+msgid "Select the custom sidebar, leave unselected to use the default sidebar"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/blocks/aq-clear-block.php:43
+msgid ""
+"Use this block to clear the floats between two or more separate blocks "
+"vertically."
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/blocks/aq-column-block.php:43
+#: ../inc/addon/aqua-page-builder-master/blocks/aq-column-block.php:64
+msgid "Drag block items into this column box"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-block.php:36
+msgid ""
+"function AQ_Block::block should not be accessed directly. Output generated "
+"by the "
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-block.php:57
+msgid "There are no options for this block."
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-page-builder.php:24
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-page-builder.php:25
+#: ../inc/addon/aqua-page-builder-master/functions/aqpb_config.php:14
+#: ../inc/addon/aqua-page-builder-master/functions/aqpb_config.php:15
+msgid "Page Builder"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-page-builder.php:26
+#: ../inc/addon/aqua-page-builder-master/functions/aqpb_config.php:16
+msgid "aq-page-builder"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-page-builder.php:268
+msgid ""
+"Drag block items from the left into this area to begin building your "
+"template."
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-page-builder.php:500
+msgid "This template is empty"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-page-builder.php:645
+msgid "Please select your template first!"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-page-builder.php:662
+#, php-format
+msgid "You don't have any template yet. Let's %s create %s one!"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-page-builder.php:667
+msgid "Choose Your Page Template"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-page-builder.php:701
+msgid "For more information:"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-page-builder.php:702
+msgid ""
+"<a href=\"http://aquagraphite.com/api/documentation/aqua-page-builder\" "
+"target=\"_blank\">Documentation</a>"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-page-builder.php:703
+msgid ""
+"<a href=\"http://aquagraphite.com/api/changelog/aqua-page-builder\" target="
+"\"_blank\">Changelog</a>"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/classes/class-aq-page-builder.php:709
+msgid "Overview"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/functions/aqpb_blocks.php:222
+msgid "Drag block items into this box"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/functions/aqpb_config.php:21
+msgid ""
+"The page builder allows you to create custom page templates which you can "
+"later use for your pages."
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/functions/aqpb_config.php:22
+msgid ""
+"To use the page builder, start by adding a new template. You can drag and "
+"drop the blocks on the left into the building area on the right of the "
+"screen. Each block has its own unique configuration which you can manually "
+"configure to suit your needs"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/functions/aqpb_config.php:23
+msgid "Please refer to the"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/functions/aqpb_config.php:23
+msgid " documentation page "
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/functions/aqpb_config.php:23
+msgid "for more information on how to use this feature."
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:19
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:67
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:90
+msgid "The "
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:67
+msgid " page template has been successfully created"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:75
+msgid "Sorry, the operation was unsuccessful for the following reason(s): "
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:90
+msgid " page template has been updated"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:102
+msgid "The template has been successfully deleted"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:125
+msgid "Available Blocks"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:125
+msgid "Deleting"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:130
+msgid "Need help? Use the Help tab in the upper right of your screen."
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:197
+msgid "Template Name"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:206
+msgid "Create Template"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:206
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:267
+msgid "Save Template"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:220
+msgid "Delete Template"
+msgstr ""
+
+#: ../inc/addon/aqua-page-builder-master/view/view-builder-page.php:247
+msgid ""
+"To create a custom page template, give it a name above and click Create "
+"Template. Then choose blocks like text, widgets or tabs &amp; toggles from "
+"the left column to add to this template.\n"
+"\t\t\t\t\t\t\t\t\t<br/><br/>\n"
+"\t\t\t\t\t\t\t\t\tYou can drag and drop the blocks to put them in the order "
+"you want. Click on the small arrow at the corner of each block to reveal "
+"additional configuration options. You can also resize each block by clicking "
+"on either side of the block (Note that some blocks are not resizable)\n"
+"\t\t\t\t\t\t\t\t\t<br/><br/>\n"
+"\t\t\t\t\t\t\t\t\tWhen you have finished building your custom page template, "
+"make sure you click the Save Template button."
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/meta-box.php:244
+#: ../inc/addon/meta-box/inc/classes/meta-box.php:252
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/meta-box.php:418
+#: ../inc/addon/meta-box/inc/classes/meta-box.php:426
+msgid "+"
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/meta-box.php:440
+#: ../inc/addon/meta-box/inc/classes/meta-box.php:448
+msgid "&#8211;"
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/fields/button.php:36
+msgid "Click me"
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/fields/map.php:49
+msgid "Find Address"
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/fields/oembed.php:77
+msgid "Preview"
+msgstr "Vorschau"
+
+#: ../inc/addon/meta-box/inc/fields/post.php:54
+msgid "Post"
+msgstr ""
+
+#: ../inc/addon/meta-box/inc/fields/post.php:68
+#: ../inc/addon/meta-box/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: ../inc/addon/meta-box/option/review.php:34
+msgid "Review and Post option"
+msgstr "Bewertung und Options Beitrag"
+
+#: ../inc/addon/meta-box/option/review.php:65
+msgid "Review Description"
+msgstr "Bewertung Beschreibung"
+
+#: ../inc/addon/meta-box/option/review.php:70
+#: ../inc/addon/meta-box/option/review.php:85
+#: ../inc/addon/meta-box/option/review.php:110
+#: ../inc/addon/meta-box/option/review.php:136
+#: ../inc/addon/meta-box/option/review.php:163
+#: ../inc/addon/meta-box/option/review.php:189
+msgid " "
+msgstr ""
+
+#: ../inc/addon/meta-box/option/review.php:81
+msgid "Review Title 1"
+msgstr "Titel der Bewertung 1"
+
+#: ../inc/addon/meta-box/option/review.php:88
+msgid "Review Score 1"
+msgstr "Gästebewertung 1"
+
+#: ../inc/addon/meta-box/option/review.php:106
+msgid "Review Title 2"
+msgstr "Titel der Bewertung 2"
+
+#: ../inc/addon/meta-box/option/review.php:114
+msgid "Review Score 2"
+msgstr "Gästebewertung 2"
+
+#: ../inc/addon/meta-box/option/review.php:132
+msgid "Review Title 3"
+msgstr "Titel der Bewertung 3"
+
+#: ../inc/addon/meta-box/option/review.php:140
+msgid "Review Score 3"
+msgstr "Gästebewertung 3"
+
+#: ../inc/addon/meta-box/option/review.php:159
+msgid "Review Title 4"
+msgstr "Titel der Bewertung 4"
+
+#: ../inc/addon/meta-box/option/review.php:167
+msgid "Review Score 4"
+msgstr "Gästebewertung 4"
+
+#: ../inc/addon/meta-box/option/review.php:185
+msgid "Review Title 5"
+msgstr "Titel der Bewertung 5"
+
+#: ../inc/addon/meta-box/option/review.php:193
+msgid "Review Score 5"
+msgstr "Gästebewertung 5"
+
+#: ../inc/new_builder/home_list_medium.php:22
+#: ../inc/new_builder/home_main_post_below_list.php:21
+#: ../inc/new_builder/home_main_post_right_list.php:21
+#: ../inc/new_builder/home_slider.php:22
+#: ../inc/new_builder/home_two_columns_post.php:22
+#: ../inc/widget/ads300x250.php:76 ../inc/widget/comments.php:84
+#: ../inc/widget/facebook.php:97 ../inc/widget/flickr.php:70
+#: ../inc/widget/popular.php:85 ../inc/widget/recent.php:103
+#: ../inc/widget/recent1.php:143 ../inc/widget/tab.php:197
+msgid "Title:"
+msgstr ""
+
+#: ../inc/new_builder/home_list_medium.php:26
+#: ../inc/new_builder/home_main_post_below_list.php:25
+#: ../inc/new_builder/home_main_post_right_list.php:25
+#: ../inc/new_builder/home_slider.php:25
+#: ../inc/new_builder/home_two_columns_post.php:28
+#: ../inc/widget/recent.php:106 ../inc/widget/recent1.php:147
+#: ../inc/widget/tab.php:200
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../inc/new_builder/home_list_medium.php:29
+#: ../inc/new_builder/home_main_post_below_list.php:28
+#: ../inc/new_builder/home_main_post_right_list.php:29
+#: ../inc/new_builder/home_slider.php:30
+#: ../inc/new_builder/home_two_columns_post.php:32
+#: ../inc/new_builder/home_two_columns_post.php:57
+#: ../inc/widget/recent.php:110 ../inc/widget/recent1.php:151
+msgid "Choose your category:"
+msgstr ""
+
+#: ../inc/new_builder/home_two_columns_post.php:25
+msgid "Title for right column:"
+msgstr ""
+
+#: ../inc/option/options-framework.php:171
+#: ../inc/option/options-framework.php:410
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/option/options-framework.php:203
+msgid "Clear"
+msgstr ""
+
+#: ../inc/option/options-framework.php:204
+msgid "Default"
+msgstr ""
+
+#: ../inc/option/options-framework.php:205
+msgid "Select Color"
+msgstr ""
+
+#: ../inc/option/options-framework.php:272
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../inc/option/options-framework.php:306
+msgid "Default options restored."
+msgstr ""
+
+#: ../inc/option/options-framework.php:360
+msgid "Options saved."
+msgstr ""
+
+#: ../inc/option/options-media-uploader.php:51
+msgid "No file chosen"
+msgstr ""
+
+#: ../inc/option/options-media-uploader.php:54
+#: ../inc/option/options-media-uploader.php:107
+msgid "Upload"
+msgstr "laden"
+
+#: ../inc/option/options-media-uploader.php:56
+#: ../inc/option/options-media-uploader.php:108
+msgid "Remove"
+msgstr ""
+
+#: ../inc/option/options-media-uploader.php:59
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../inc/option/options-media-uploader.php:83
+msgid "View File"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:234
+msgid "No Repeat"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:235
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:236
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:237
+msgid "Repeat All"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:250
+msgid "Top Left"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:251
+msgid "Top Center"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:252
+msgid "Top Right"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:253
+msgid "Middle Left"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:254
+msgid "Middle Center"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:255
+msgid "Middle Right"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:256
+msgid "Bottom Left"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:257
+msgid "Bottom Center"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:258
+msgid "Bottom Right"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:271
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:272
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:346
+msgid "Normal"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:347
+msgid "Italic"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:348
+msgid "Bold"
+msgstr ""
+
+#: ../inc/option/options-sanitize.php:349
+msgid "Bold Italic"
+msgstr ""
+
+#: ../inc/option/upgrade.php:31
+msgid "Theme Options Media"
+msgstr ""
+
+#: ../inc/widget/ads300x250.php:16
+msgid "Ads 300x250"
+msgstr ""
+
+#: ../inc/widget/ads300x250.php:17
+msgid "jellywp: Ads 300x250"
+msgstr ""
+
+#: ../inc/widget/ads300x250.php:71
+msgid "ADS 300x250"
+msgstr ""
+
+#: ../inc/widget/ads300x250.php:81 ../inc/widget/ads728x90.php:65
+msgid "Link Url:"
+msgstr ""
+
+#: ../inc/widget/ads300x250.php:86 ../inc/widget/ads728x90.php:70
+msgid "Image Url:"
+msgstr ""
+
+#: ../inc/widget/ads728x90.php:15
+msgid "Ads 728x90"
+msgstr ""
+
+#: ../inc/widget/ads728x90.php:16
+msgid "jellywp: Ads 728x90"
+msgstr ""
+
+#: ../inc/widget/ads728x90.php:60
+msgid "ADS 728"
+msgstr ""
+
+#: ../inc/widget/comments.php:15
+msgid "Displays recent comments."
+msgstr ""
+
+#: ../inc/widget/comments.php:16
+msgid "jellywp: Recent Comments"
+msgstr ""
+
+#: ../inc/widget/comments.php:87
+msgid "How many entries to display?"
+msgstr ""
+
+#: ../inc/widget/facebook.php:15
+msgid "Facebook widget."
+msgstr ""
+
+#: ../inc/widget/facebook.php:16
+msgid "jellywp: Facebook widget"
+msgstr ""
+
+#: ../inc/widget/facebook.php:102
+msgid "Facebook Page URL:"
+msgstr ""
+
+#: ../inc/widget/facebook.php:107
+msgid "Facebook Language:"
+msgstr ""
+
+#: ../inc/widget/facebook.php:114
+msgid "Show Faces"
+msgstr ""
+
+#: ../inc/widget/facebook.php:119
+msgid "Show Stream"
+msgstr ""
+
+#: ../inc/widget/facebook.php:124
+msgid "Show Header"
+msgstr ""
+
+#: ../inc/widget/facebook.php:128
+msgid "Theme Color:"
+msgstr ""
+
+#: ../inc/widget/flickr.php:15
+msgid "Images from Flickr."
+msgstr ""
+
+#: ../inc/widget/flickr.php:16
+msgid "jellywp: Flickr"
+msgstr ""
+
+#: ../inc/widget/flickr.php:75
+msgid "Flickr ID"
+msgstr ""
+
+#: ../inc/widget/flickr.php:80
+msgid "Number:"
+msgstr ""
+
+#: ../inc/widget/popular.php:16
+msgid "Display a list of popular posts"
+msgstr ""
+
+#: ../inc/widget/popular.php:17
+msgid "jellywp: popular post"
+msgstr ""
+
+#: ../inc/widget/popular.php:81
+msgid "Popular Posts"
+msgstr ""
+
+#: ../inc/widget/popular.php:89
+msgid "Number of posts:"
+msgstr ""
+
+#: ../inc/widget/recent.php:17 ../inc/widget/recent1.php:17
+msgid "Display a list of recent post."
+msgstr ""
+
+#: ../inc/widget/recent.php:19
+msgid "jellywp: Recently Posts"
+msgstr ""
+
+#: ../inc/widget/recent1.php:19
+msgid "jellywp: main post images"
+msgstr ""
+
+#: ../inc/widget/tab.php:17
+msgid "Tab widget: Popular, latest and comment."
+msgstr ""
+
+#: ../inc/widget/tab.php:19
+msgid "jellywp: Tab widget"
+msgstr ""
+
+#: ../inc/widget/tab.php:59
+msgid "Popular"
+msgstr ""
+
+#: ../inc/widget/tab.php:60
+msgid "Recent"
+msgstr ""
+
+#: ../inc/widget/tab.php:61
+msgid "Comments"
+msgstr ""
+
+#: ../inc/widget/tab.php:205
+msgid "Show comment tab"
+msgstr ""

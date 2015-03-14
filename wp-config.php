@@ -7,17 +7,19 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	include( dirname( __FILE__ ) . '/local-config.php' );
 } else {
 	define( 'WP_LOCAL_DEV', false );
-	define( 'DB_NAME', '%%DB_NAME%%' );
-	define( 'DB_USER', '%%DB_USER%%' );
-	define( 'DB_PASSWORD', '%%DB_PASSWORD%%' );
-	define( 'DB_HOST', '%%DB_HOST%%' ); // Probably 'localhost'
+	define( 'DB_NAME', 'wp_prod' );
+	define( 'DB_USER', 'wp_user' );
+	define( 'DB_PASSWORD', 'Whysoserious123' );
+	define( 'DB_HOST', 'localhost' ); // Probably 'localhost'
 }
 
 // ========================
 // Custom Content Directory
 // ========================
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
-define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/content' );
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/viralkeeda/content' );
+
+define( 'WP_MEMORY_LIMIT', '96M' );
 
 // ================================================
 // You almost certainly do not want to change these
