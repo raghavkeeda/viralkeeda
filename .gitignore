@@ -3,4 +3,6 @@
 /sql-dump-*.sql
 /db-sync
 /content/upgrade/
+/content/cache/
 .DS_Store
+nginx.conf
