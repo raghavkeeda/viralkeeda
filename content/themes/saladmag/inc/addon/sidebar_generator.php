@@ -73,7 +73,7 @@ class sidebar_generator {
 				function add_sidebar( sidebar_name )
 				{
 					
-					var mysack = new sack("<?php echo home_url(); ?>/wp-admin/admin-ajax.php" );    
+					var mysack = new sack("<?php echo site_url(); ?>/wp-admin/admin-ajax.php" );    
 				
 				  	mysack.execute = 1;
 				  	mysack.method = 'POST';
@@ -88,7 +88,7 @@ class sidebar_generator {
 				function remove_sidebar( sidebar_name,num )
 				{
 					
-					var mysack = new sack("<?php echo home_url(); ?>/wp-admin/admin-ajax.php" );    
+					var mysack = new sack("<?php echo site_url(); ?>/wp-admin/admin-ajax.php" );    
 				
 				  	mysack.execute = 1;
 				  	mysack.method = 'POST';
