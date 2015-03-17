@@ -10,8 +10,8 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	include( dirname( __FILE__ ) . '/local-config.php' );
 } else {
 	define( 'WP_LOCAL_DEV', false );
-	define( 'DB_NAME', 'wp_prod' );
-	define( 'DB_USER', 'wp_user' );
+	define( 'DB_NAME', 'viralkeeda_prod' );
+	define( 'DB_USER', 'user' );
 	define( 'DB_PASSWORD', 'Whysoserious123' );
 	define( 'DB_HOST', 'localhost' ); // Probably 'localhost'
 }
