@@ -176,12 +176,12 @@ else{echo '<img src="'.get_template_directory_uri().'/img/feature_img/feature-gr
 	}
 	
 	
-	$post_array_carousel = array(
-            'showposts' => $number_of_carousel,
-            'category__in' => $category_carousel_post,
-			'ignore_sticky_posts' => 1,
-			'offset' => $number_offset_carousel_post
-        );	
+	$post_array_carousel =  array( 'posts_per_page' => 10, 
+								   'meta_key' => 'wpb_post_views_count', 
+								   'orderby' => 'meta_value_num', 
+								   'order' => 'DESC'
+								 );
+
         $jellywp_widget_carousel = new WP_Query($post_array_carousel);
 		$i=0;
 		 while ($jellywp_widget_carousel->have_posts()) {
@@ -227,7 +227,7 @@ else{echo '<img class="no_feature_img" src="'.get_template_directory_uri().'/img
  
  </div>
  </div>
- <?php }?>   
+ <?php } wp_reset_query();?>   
 
  
   </div>

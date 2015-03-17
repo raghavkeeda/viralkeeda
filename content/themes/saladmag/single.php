@@ -14,6 +14,8 @@
                                     
                         <?php if (have_posts()) { while (have_posts()) { the_post(); ?>
                                 <?php
+                                //wpb_set_post_views(get_the_ID());
+                                // <!-- mfunc wpb_set_post_views($post_id); --><!-- /mfunc -->
                                 $categories = get_the_category();
                                 $tags = get_the_tags();
                                 $post_id = get_the_ID();
@@ -31,7 +33,17 @@
                               <img src="<?php echo $blog_feautre_image; ?>" alt="<?php the_title(); ?>" />
                               <?php }}?>
                                
-                                <div class="post_content"><?php the_content(); ?></div> 
+                                <div class="post_content">
+                                  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+                                  <div class="fb-like like-up" data-href="<?php echo get_permalink(); ?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+                                  <?php the_content(); ?></div> 
                                 <?php 
  	$defaults_link = array(
 		'before'           => '<div class="pagination">' . __( 'Continued On Page:' ),
@@ -121,7 +133,7 @@ wp_link_pages( $defaults_link ); ?>
                                 
               <div class="clearfix"></div>
                                 
-                 <?php  if(of_get_option('disable_post_share') !=1){?>         
+                 <?php  if(0){?>         
                           
                             <div class="share-post">
                                  <ul>                                                

@@ -29,13 +29,46 @@ class popular_widget extends WP_Widget {
 		if ( $title ){ 
 			echo $before_title . $title . $after_title; 
 		}
+		// global $wpdb;
+		// $my_row=$wpdb->get_results(
+		// 	"select meta_value,term_taxonomy_id from `wp_postmeta`, `wp_term_relationships` where post_id=object_id And meta_key Like 'wpb_post_views_count' And post_id=189")
+		// $Current_Category_Id=;
+		// $No_of_Posts_Current_Category=$wpdb->get_var(
+		// 	"SELECT count(id) From 
+		// 	`wp_posts`,`wp_term_relationships` 
+		// 	Where id=object_id 
+		// 	and term_taxonomy_id=$Current_Category_Id");
 
-			$recent_posts = new WP_Query(array(
-				'showposts' => $num_posts,
-				'orderby' => 'comment_count',
-				'ignore_sticky_posts' => 1
-			));
+		// $total_post_views = $wpdb->get_var(
+		//  "SELECT Sum(meta_value)
+		//  FROM `wp_postmeta` 
+		//  WHERE meta_key 
+		//  like 'wpb_post_views_count'" );
+		// echo $total_post_views . "ewfwer";
+		// 	$recent_posts = new WP_Query(array(
+		// 		'showposts' => $num_posts,
+		// 		'orderby' => 'comment_count',
+		// 		'ignore_sticky_posts' => 1
+		// 	));
 			
+			$today = getdate();
+			$args = array(
+			          'meta_key'     => 'wpb_post_views_count',
+			          'meta_value'   => '1',
+			          'meta_compare' => '>=',
+			          'orderby'    => 'meta_value_num',
+			          'ignore_sticky_posts' => 1,
+			          'paged' => $paged,
+			          'date_query' => array(
+			                array(
+			                        'year'  => $today['year'],
+			                        'month' => $today['mon'],
+			                        'day'   => $today['mday'],
+			    ),
+			),
+			);
+			$recent_posts = new WP_Query( $args );
+
 			?>
 				<div class="widget_container">
 				<ul class="feature-post-list popular-post-widget">
@@ -71,7 +104,7 @@ else{echo '<img class="no_feature_img" src="'.get_template_directory_uri().'/img
    </li>
             
 
-		<?php } ?>
+		<?php } wp_reset_query(); ?>
 </ul>		
 </div>			
 <?php

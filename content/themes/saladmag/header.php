@@ -153,6 +153,15 @@ echo $currDate;*/
                            
   <div class="menu-primary-container main-menu"> 
 <?php $main_menu = array('walker' => new jellywp_walker(), 'theme_location' => 'Main_Menu', 'container' => '', 'menu_class' => 'sf-menu', 'menu_id' => 'mainmenu', 'fallback_cb' => false, 'link_after'=>'<span class="border-menu"></span>'); wp_nav_menu($main_menu);?>
+ <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="https://www.facebook.com/viralkeeda" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+ 
  <div id="search_block_top">
   <form id="searchbox" action="<?php echo home_url(); ?>" method="GET" role="search">
     <p>

@@ -164,6 +164,7 @@ function jellywp_single_post_meta($post_id) {
                                  if(of_get_option('disable_post_author') !=1){echo '<span class="vcard post-author meta-user"><span class="fn"><i class="fa fa-user"></i>'; echo the_author_posts_link().'</span></span>';}
                               if(of_get_option('disable_post_category') !=1){ echo '<span class="meta-cat"><i class="fa fa-book"></i>'; echo the_category(', ').'</span>';}
                              if(of_get_option('disable_post_comment_meta') !=1){ echo '<span class="meta-comment">'; echo comments_popup_link(__('<i class="fa fa-comments"></i>0', 'jelly_text_main'), __('<i class="fa fa-comments"></i> 1', 'jelly_text_main'), __('<i class="fa fa-comments"></i>%', 'jelly_text_main')).'</span>'; }
+                            echo '<span class="post-date updated"><i class="fa fa-eye"></i>'.wpb_get_post_views($post_id).'</span>';
                                      echo'</p>';	
 }
 
@@ -415,4 +416,40 @@ function jellywp_enqueue_script() {
 }
 add_action( 'wp_enqueue_scripts', 'jellywp_enqueue_style' );
 add_action( 'wp_enqueue_scripts', 'jellywp_enqueue_script' );
+
+function wpb_set_post_views($postID) {
+    $count_key = 'wpb_post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if($count==''){
+        $count = 0;
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+    }else{
+        $count++;
+        update_post_meta($postID, $count_key, $count);
+    }
+}
+//To keep the count accurate, lets get rid of prefetching
+remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
+
+function wpb_track_post_views ($post_id) {
+    if ( !is_single() ) return;
+    if ( empty ( $post_id) ) {
+        global $post;
+        $post_id = $post->ID;    
+    }
+    wpb_set_post_views($post_id);
+}
+add_action( 'wp_head', 'wpb_track_post_views');
+
+function wpb_get_post_views($postID){
+    $count_key = 'wpb_post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if($count==''){
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+        return "0 View";
+    }
+    return $count.' Views';
+}
 ?>
